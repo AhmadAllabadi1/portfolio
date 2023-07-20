@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<title><%= htmlWebpackPlugin.options.title%></title>
+</head>
+<body>
+    <nav id="navContainer">
+        <div id="nameTitle"> Ahmad Allabadi </div>
+        <ul>
+            <li> <a href="#homeContent"> About </a></li>
+            <li> <a href="#projectsContent"> Projects </a></li>
+            <li> <a href="#contactContent"> Contact </a></li>
+        </ul>
+        <i class="fas fa-bars"></i>
+    </nav>
+    <div id="main">
+        <section id="homeContent">
+            <div>
+                <div style="color: var(--text-secondary); font-size: 2.5rem;"> Hi my name is , </div>
+                <h1 style="color: var(--text-primary); font-size: 4.5rem;"> Ahmad Allabadi</h1>
+                <p style="color: var(--text-secondary); font-size: 2rem;">  I am a passionate and dedicated web developer with a keen interest in creating
+                    user-friendly and visually appealing websites. My journey in web development started
+                    during my school days when I took my first programming course, and I have been hooked
+                    ever since.</p>
+            </div>
+            <img id="programmingIllustration">
+        </section>
+
+        <section id="projectsContent" >
+            <div id=projectsTitleContainer>
+                <div class="line"></div>
+                <div id="projectsTitle"> Projects</div>
+                <div class="line"></div>
+            </div>
+
+            <div id="projectsContainer">
+                <div class="projectContainer">
+                    <h2 class="projectTitle" data-aos="fade-in"> Tic-Tac-Toe</h2>
+                    <div class="projectInnerContainer">
+                        <div class="projectText" data-aos="fade-right"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum velit sed elit consequat, luctus semper quam convallis. Nunc imperdiet ut lectus quis convallis. Cras fermentum iaculis venenatis. Vivamus ut mi nunc. Nulla semper varius maximus. Nam luctus erat ac risus viverra, at semper mauris interdum. Suspendisse quis ultrices nisl. Nunc id dui nec augue rhoncus gravida ut at dui.</div>
+                        <img id="projectOneImg" class="projectImg" data-aos="fade-left">
+                    </div>
+                    <div class="projectRedirect">
+                        <a class="projectLive"  target="_blank" href="https://ahmadallabadi1.github.io/tic-tac-toe"> Live <i class="fas fa-link" style="font-size: 1rem; margin-left: 0.2rem;"></i></a>
+                        <a class="projectSource" target="_blank" href="https://github.com/AhmadAllabadi1/tic-tac-toe"> Source &lt;/&gt; </a>
+                    </div>
+                </div>
+
+                <div class="projectContainer">
+                    <h2 class="projectTitle" data-aos="fade-in"> Todo-List</h2>
+                    <div class="projectInnerContainer">
+                        <div class="projectText" data-aos="fade-right"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum velit sed elit consequat, luctus semper quam convallis. Nunc imperdiet ut lectus quis convallis. Cras fermentum iaculis venenatis. Vivamus ut mi nunc. Nulla semper varius maximus. Nam luctus erat ac risus viverra, at semper mauris interdum. Suspendisse quis ultrices nisl. Nunc id dui nec augue rhoncus gravida ut at dui.</div>
+                        <img id="projectTwoImg" class="projectImg" data-aos="fade-left">
+                    </div>
+                    <div class="projectRedirect">
+                        <a class="projectLive"  target="_blank" href="https://ahmadallabadi1.github.io/Todo-List"> Live <i class="fas fa-link" style="font-size: 1rem; margin-left: 0.2rem;"></i></a>
+                        <a class="projectSource" target="_blank" href="https://github.com/AhmadAllabadi1/Todo-List"> Source &lt;/&gt; </a>
+                    </div>
+                </div>
+
+                <div class="projectContainer">
+                    <h2 class="projectTitle" data-aos="fade-in"> Calculator</h2>
+                    <div class="projectInnerContainer" data-aos="fade-right">
+                        <div class="projectText"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum velit sed elit consequat, luctus semper quam convallis. Nunc imperdiet ut lectus quis convallis. Cras fermentum iaculis venenatis. Vivamus ut mi nunc. Nulla semper varius maximus. Nam luctus erat ac risus viverra, at semper mauris interdum. Suspendisse quis ultrices nisl. Nunc id dui nec augue rhoncus gravida ut at dui.</div>
+                        <img id="projectThreeImg" class="projectImg" data-aos="fade-left">
+                    </div>
+                    <div class="projectRedirect">
+                        <a class="projectLive"  target="_blank" href="https://ahmadallabadi1.github.io/Calculator"> Live <i class="fas fa-link" style="font-size: 1rem; margin-left: 0.2rem;"></i></a>
+                        <a class="projectSource" target="_blank" href="https://github.com/AhmadAllabadi1/Calculator"> Source &lt;/&gt; </a>
+                    </div>
+                </div>
+
+
+                <div class="projectContainer">
+                    <h2 class="projectTitle" data-aos="fade-in"> Virtual Library</h2>
+                    <div class="projectInnerContainer">
+                        <div class="projectText" data-aos="fade-right"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum velit sed elit consequat, luctus semper quam convallis. Nunc imperdiet ut lectus quis convallis. Cras fermentum iaculis venenatis. Vivamus ut mi nunc. Nulla semper varius maximus. Nam luctus erat ac risus viverra, at semper mauris interdum. Suspendisse quis ultrices nisl. Nunc id dui nec augue rhoncus gravida ut at dui.</div>
+                        <img id="projectFourImg" class="projectImg" data-aos="fade-left">
+                    </div>
+                    <div class="projectRedirect">
+                        <a class="projectLive"  target="_blank" href="https://ahmadallabadi1.github.io/Library"> Live <i class="fas fa-link" style="font-size: 1rem; margin-left: 0.2rem;"></i></a>
+                        <a class="projectSource" target="_blank" href="https://github.com/AhmadAllabadi1/Library"> Source &lt;/&gt; </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="contactContent">
+            <div id=contactTitleContainer>
+                <div class="line"></div>
+                <div id="contactTitle"> Contact </div>
+                <div class="line"></div>
+            </div>
+
+            <div id="contactContainer">
+                <div id="linkedIn">
+                    <img id="linkedInImg">
+                    <div id="linkedInWebsite"><a href="#"> linkedin.com/in/ahmad-allabadi-a69584183 </a></div>
+                </div>
+
+                <div id="github">
+                    <img id="githubImg">
+                    <div id="githubWebsite"><a href="#"> github.com/AhmadAllabadi1 </a></div>
+                </div>
+
+                <div id="mail">
+                    <img id="mailImg">
+                    <div id="mailWebsite"><a href="#"> github.com/AhmadAllabadi1 </a></div>
+                </div>
+
+            </div>
+
+        </section>
+    </div>
+
+    
+</body>
+</html>
